@@ -1,0 +1,9 @@
+<%= simple_form_for @account do |f| %>    
+ 
+  <%= f.input :account_name, :label => "AccountName:" %> 
+  <%= f.input :account_num, :label => "Account#:" %>
+  <%= f.input :bank_name, :label => "BankName:" %>   
+  <%= f.input :brief_note, :label => "BriefNote:" %>  
+  
+  <%= f.button :submit, 'Save' %>  
+<% end %> 
